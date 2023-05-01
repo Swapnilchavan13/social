@@ -14,7 +14,6 @@ const connectDB= async()=>{
         console.log("Error")
     }
 }
-
 connectDB().then(() => {
     app.listen(PORT, () => {
         console.log(`Listening on port ${PORT}`);
